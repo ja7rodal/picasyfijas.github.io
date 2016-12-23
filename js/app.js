@@ -3,7 +3,7 @@ var context = {numero: "", fijas: "", picas:""};
 
 function randonfp(){
   var n = _.sampleSize(_.shuffle(_.range(10)),4);
-  console.log(n);
+  //console.log(n);
   return n;
 }
 
