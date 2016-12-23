@@ -1,0 +1,96 @@
+body{
+  background-color: #bdc3c7;
+  font-family: 'Roboto 400', sans-serif;
+}
+
+.prin{
+  background-color: #ecf0f1;
+  padding-bottom: 5%
+}
+.hides{
+  display: none;
+}
+
+#mensaje{
+  padding: 5px;
+}
+
+.rojo{
+  color: red;
+}
+
+#test{
+margin: auto;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 2px
+
+  }
+.ganador{
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  border: solid 2px #c0392b;
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+  color: #c0392b;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(20deg); /* Standard syntax */
+  padding: 10px;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+.centered{
+    text-align: center;
+}
+table{
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-secondary,
+.button-warning,
+.button-success {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 5% 10%;
+    font-weight: bolder;
+}
+
+.button-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+    padding: 20px 50px;
+}
+.button-success{
+  background: rgb(28, 184, 65); /* this is a green */
+  padding: 10px 40px;
+  font-weight: normal;
+  font-size:0.9em;
+}
+
+.button-secondary {
+     background: rgb(66, 184, 221); /* this is a light blue */
+     padding: 20px 50px;
+     font-weight: bold;;
+     font-size:1.1em;
+ }
+
+
+.antes{
+  padding: 5px;
+}
+
+.winner{
+  color: red;
+  font-size: 2em;
+  font-weight: bolder;
+}
